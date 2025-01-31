@@ -1,9 +1,9 @@
-# 🛠️ Fault-Tolerant 2-Phase Commit (2PC) Protocol Implementation  
+# Fault-Tolerant 2-Phase Commit (2PC) Protocol Implementation  
 
 ## 📌 Project Description  
 This project implements a **fault-tolerant distributed 2-Phase Commit (2PC) protocol** to handle transactions across multiple nodes. The protocol ensures that a transaction is either **fully committed or fully aborted**, even in the presence of node failures.  
 
-### 🔹 Key Features:  
+## 🔹 Key Features:  
 ✅ **Transaction Coordinator (TC)** – Manages the commit/abort process.  
 ✅ **Multiple Participant Nodes** – Emulated using separate processes.  
 ✅ **Fault Tolerance** – Handles random and controlled failures gracefully.  
